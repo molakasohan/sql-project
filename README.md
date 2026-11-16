@@ -34,11 +34,3 @@ Open each file and run it (lightning icon) **in this order**:
 - JOIN, GROUP BY, HAVING
 - Views, procedures, functions, triggers, indexes
 
-## Try It
-```sql
-USE food_order_db;
-CALL sp_place_order(1, 5, 2);          -- Ravi orders 2 pizzas
-SELECT * FROM vw_order_totals;
-SELECT item_name, stock FROM menu_items WHERE item_id = 5;   -- stock reduced
-SELECT fn_add_gst(fn_order_total(1));
-```
