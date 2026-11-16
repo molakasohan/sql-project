@@ -26,9 +26,9 @@ simple-food-db/
 Open each file and run it (lightning icon) **in this order**:
 `01 → 02 → 03 → 05 → 06 → 07 → 08 → 09 → 04`
 
-(File 04 has practice queries, so run it last.)
 
-## What You Learn
+
+## 
 - CREATE TABLE, primary key, foreign key
 - INSERT, SELECT, WHERE, ORDER BY
 - JOIN, GROUP BY, HAVING
